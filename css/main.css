@@ -15,11 +15,13 @@
 #wts-contain a:hover {color:#1e3b54;text-decoration:underline;}
 #wts-contain p {margin:0;color:#333;}
 
-.against {background:#d7191c;}
-.lean-against {background:#fdae61;}
-.neutral {background:#ffffbf;}
-.lean-support {background:#a6d96a;}
-.support {background:#1a9641;}
+.wts-top {position: absolute;top: 0;right: 0;}
+#wts-contain .wts-top a {font-size:2em;color:#222;}
+#wts-contain .wts-top a:hover {color:#666;}
+
+.against {background:#fc8d59;}
+.neutral {background:#aaa;}
+.support {background:#91cf60;}
 
 /* ALL POSITIONS AREA
 ======================================*/
@@ -29,17 +31,18 @@
 .wts-intro h1 {font-size: 2em;text-align: center;}
 #wts-contain .wts-intro p {margin:0 0 20px 0;}
 
-.wts-box {width:32%;margin-right:2%;float:left;}
+.wts-box {width:100%;border-bottom:1px #ddd solid;padding: 30px 0;overflow: hidden;}
+.wts-box:last-of-type {border:none;}
 .wts-box:last-of-type {margin:0;}
 .wts-box img {width:100%;cursor:pointer;}
 .wts-box h3 {text-align:center;font-size:1em;text-transform: uppercase;}
 
-.wts-box>div {float:left;width:23.333333333%;margin:0 5% 20px 5%;}
+.wts-box>div {float:left;width:23.333333333%;margin:0 5% 20px 5%;height:95px}
 .wts-box .flip {position:relative;width:25px;top:-20px;left:-15px;}
 
 /* META AREA
 ======================================*/
-.wts-meta {float:left;width:25%;padding-right:2%;margin-top:22px;}
+.wts-meta {width:100%;margin-top:25px;}
 
 #wts-contain .wts-meta h2 {text-align: center;margin:5px 0;}
 #wts-contain .wts-meta h3 {text-align: center;color:#333;font-weight:400;}
@@ -48,13 +51,13 @@
 
 .wts-social {margin:0 auto;width:25px;}
 
-#wts-contain .wts-position {margin: 20px auto;  text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:inherit;}
+#wts-contain .wts-position {margin: 20px auto;  text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:70px;}
 #wts-contain .wts-flip {margin: 20px auto;  background:#333; text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:125px;}
 .wts-flip img {float:left;width:25px;}
 
 /* CONTENT AREA
 ======================================*/
-.wts-content {float:right;width:73%;}
+.wts-content {width: 90%;margin: 0 5%;}
 
 #wts-contain .twitter-share, #wts-contain .copy-link {font-size:1.6em;margin-right:10px;}
 
@@ -76,7 +79,7 @@
 #wts-contain blockquote.twitter-tweet a {  color: inherit;  font-weight: normal;  text-decoration: none;  outline: 0 none;}
 #wts-contain blockquote.twitter-tweet a:hover,blockquote.twitter-tweet a:focus {  text-decoration: underline;}
 
-.wts-entry {padding:10px 2%;width:96%;background:#fff;overflow-x:hidden;}
+.wts-entry {padding:10px 2%;width:96%;background:#fff;overflow-x:hidden;position:relative;}
 .wts-entry:last-of-type {border:0;}
 
 #wts-contain .wts-text {margin:0 0 20px 0;}
@@ -86,6 +89,14 @@
 .wts-entry .fa-quote-right {padding-left:2%;font-size:.7em;color:#9d9d9d;}
 
 .wts-link {text-decoration:underline;color:#39709f;}
+
+@media (min-width: 768px){
+	.wts-box {width:31%;margin-right:2%;float:left;border-right:1px #ddd solid;min-height:650px;padding:0;}
+
+	.wts-meta {float:left;width:25%;padding-right:2%;margin-top:22px;}
+	.wts-content {float:right;width:73%;margin:0;}
+}
+
 
 @media (min-width: 1024px){
 	.sidebar {display:none;}
