@@ -37,7 +37,7 @@
 .wts-box img {width:100%;cursor:pointer;}
 .wts-box h3 {text-align:center;font-size:1em;text-transform: uppercase;}
 
-.wts-box>div {float:left;width:23.333333333%;margin:0 5% 20px 5%;height:95px}
+.wts-box>div {float:left;width:15%;margin:0 5% 50px 5%;height:95px;}
 .wts-box .flip {position:relative;width:25px;top:-20px;left:-15px;}
 
 /* META AREA
@@ -65,6 +65,8 @@
 
 .wts-quote {margin-bottom: 20px;padding: 30px 0;  border-bottom: 1px solid #e2e2e2;}
 .wts-quote p:last-of-type {text-align:right;padding-top:20px;}
+#wts-contain .wts-quote a {color:#aaa;text-decoration: underline;}
+#wts-contain .wts-quote a:hover	 {color:#555;}
 
 #wts-contain .wts-quote p {margin-left:10%;color:#9d9d9d;}
 
@@ -91,7 +93,8 @@
 .wts-link {text-decoration:underline;color:#39709f;}
 
 @media (min-width: 768px){
-	.wts-box {width:31%;margin-right:2%;float:left;border-right:1px #ddd solid;min-height:650px;padding:0;}
+	.wts-box {width:31%;margin-right:2%;float:left;border:none;border-right:1px #ddd solid;min-height:650px;padding:0;}
+	.wts-box>div {width:23.333333333%;}
 
 	.wts-meta {float:left;width:25%;padding-right:2%;margin-top:22px;}
 	.wts-content {float:right;width:73%;margin:0;}

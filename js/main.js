@@ -50,7 +50,7 @@ var wts = {
 				flipflop:'<div class="wts-flip"><img src="assets/flip-white.png">Flipflopped</div>',
 				social:'<div class="wts-social"></div>',
 				twiter:'<a class="twitter-share" href=""><i class="fa fa-twitter"></i></a>',
-				quote:'<div class="wts-quote"><i class="fa fa-quote-left"></i><p>' + d[i][5] + '</p><p>' + d[i][6] + '</p></div>',
+				quote:'<div class="wts-quote"><i class="fa fa-quote-left"></i><p>' + d[i][5] + '"</p><p>- ' + d[i][6] + '</p></div>',
 				text:'<div class="wts-text"></div>',
 				meta:'<div class="wts-meta"></div>',
 				content: '<div class="wts-content"></div>'
@@ -83,8 +83,8 @@ var wts = {
 		
 		}
 	},
-	executeBlog:function(){
-		this.processData();
+	executeBlog:function(loc){
+		this.processData(loc);
 	}		
 }
 
