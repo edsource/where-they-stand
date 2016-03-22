@@ -1,23 +1,25 @@
 
 /* GENERAL
 ======================================*/
-#wts-contain  {margin:40px 0 0 0;max-width:890px;width:99%;font-size:100%;overflow-x:hidden;overflow-y:scroll;}
-#wts-contain h1, #wts-contain h2, #wts-contain h3 {font-family: 'roboto Condensed',san-serif; margin: 0 0 20px 0;}
-#wts-contain p, #wts-contain span, #wts-contain a, #wts-contain div, #wts-contain li {font-family:'Crimson Text', serif;}
-#wts-contain hr {width:90%;border:1px solid #9d9d9d;}
+.wts-contain  {margin:40px 0 0 0;max-width:890px;width:99%;font-size:100%;overflow-x:hidden;overflow-y:scroll;}
+.wts-contain h1, .wts-contain h2, .wts-contain h3 {font-family: 'roboto Condensed',san-serif; margin: 0 0 20px 0;}
+.wts-contain p, .wts-contain span, .wts-contain a, .wts-contain div, .wts-contain li {font-family:'Crimson Text', serif;}
+.wts-contain hr {width:90%;}
 
-#wts-contain ::-webkit-scrollbar {width: .8em;}
-#wts-contain ::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);}
-#wts-contain ::-webkit-scrollbar-thumb {background-color: #ddd;outline: 1px solid #bbb;}
+.wts-contain .socialize.active {padding-bottom: 30px;}
 
-#wts-contain {overflow-x:hidden;overflow-y: scroll}
-#wts-contain a {color:#39709f;text-decoration:none;}
-#wts-contain a:hover {color:#1e3b54;text-decoration:underline;}
-#wts-contain p {margin:0;color:#333;}
+.wts-contain ::-webkit-scrollbar {width: .8em;}
+.wts-contain ::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);}
+.wts-contain ::-webkit-scrollbar-thumb {background-color: #ddd;outline: 1px solid #bbb;}
+
+.wts-contain {overflow-x:hidden;overflow-y: scroll}
+.wts-contain a {color:#39709f;text-decoration:none;}
+.wts-contain a:hover {color:#1e3b54;text-decoration:underline;}
+.wts-contain p {margin:0;color:#333;}
 
 .wts-top {position: absolute;top: 0;right: 0;}
-#wts-contain .wts-top a {font-size:2em;color:#222;}
-#wts-contain .wts-top a:hover {color:#666;}
+.wts-contain .wts-top a {font-size:2em;color:#222;}
+.wts-contain .wts-top a:hover {color:#666;}
 
 .against {background:#fc8d59;}
 .neutral {background:#aaa;}
@@ -28,63 +30,63 @@
 #wts-all {padding:20px 0;border-bottom:2px #555 solid;overflow:hidden;}
 
 .wts-intro {width:70%;margin:0 auto 40px auto;}
-.wts-intro h1 {font-size: 2em;text-align: center;}
-#wts-contain .wts-intro p {margin:0 0 20px 0;}
+.wts-intro h1 {font-size: 2em;}
+.wts-contain .wts-intro p {margin:0 0 20px 0;}
 
-.wts-box {width:100%;border-bottom:1px #ddd solid;padding: 30px 0;overflow: hidden;}
+.wts-box {width:100%;border-bottom:1px #ddd solid;padding: 30px 0;overflow: hidden;border-right:none;}
 .wts-box:last-of-type {border:none;}
 .wts-box:last-of-type {margin:0;}
 .wts-box img {width:100%;cursor:pointer;}
 .wts-box h3 {text-align:center;font-size:1em;text-transform: uppercase;}
 
-.wts-box>div {float:left;width:15%;margin:0 5% 50px 5%;height:95px;}
+.wts-box>div {float:left;width:23.333333333%;margin:0 5% 50px 5%;height:95px;}
 .wts-box .flip {position:relative;width:25px;top:-20px;left:-15px;}
 
 /* META AREA
 ======================================*/
 .wts-meta {width:100%;margin-top:25px;}
 
-#wts-contain .wts-meta h2 {text-align: center;margin:5px 0;}
-#wts-contain .wts-meta h3 {text-align: center;color:#333;font-weight:400;}
+.wts-contain .wts-meta h2 {text-align: center;margin:5px 0;}
+.wts-contain .wts-meta h3 {text-align: center;color:#333;font-weight:400;}
 
 .wts-image img {width:100px;display:block;margin:0 auto;}
 
 .wts-social {margin:0 auto;width:25px;}
 
-#wts-contain .wts-position {margin: 20px auto;  text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:70px;}
-#wts-contain .wts-flip {margin: 20px auto;  background:#333; text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:125px;}
+.wts-contain .wts-position {margin: 20px auto;  text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:70px;}
+.wts-contain .wts-flip {margin: 20px auto;  background:#333; text-align: center;  text-transform: uppercase;  padding: 10px 20px; border-radius: 15px;  color: #fff;  font-family: "roboto condensed" !important; width:125px;}
 .wts-flip img {float:left;width:25px;}
 
 /* CONTENT AREA
 ======================================*/
 .wts-content {width: 90%;margin: 0 5%;}
 
-#wts-contain .twitter-share, #wts-contain .copy-link {font-size:1.6em;margin-right:10px;}
+.wts-contain .twitter-share, .wts-contain .copy-link {font-size:1.6em;margin-right:10px;}
 
-#wts-contain .text {margin-bottom: 25px;}
+.wts-contain .text {margin-bottom: 25px;}
 
 .wts-quote {margin-bottom: 20px;padding: 30px 0;  border-bottom: 1px solid #e2e2e2;}
 .wts-quote p:last-of-type {text-align:right;padding-top:20px;}
-#wts-contain .wts-quote a {color:#aaa;text-decoration: underline;}
-#wts-contain .wts-quote a:hover	 {color:#555;}
+.wts-contain .wts-quote a {color:#aaa;text-decoration: underline;}
+.wts-contain .wts-quote a:hover	 {color:#555;}
 
-#wts-contain .wts-quote p {margin-left:10%;color:#9d9d9d;}
+.wts-contain .wts-quote p {margin-left:10%;color:#9d9d9d;}
 
-#wts-contain .link {border:1px #aaa solid;}
-#wts-contain .link div[type="content"] h4 {padding: 0 2%;line-height:1.5em;}
-#wts-contain .link div[type="content"] p {padding: 0 2% 20px 2%;}
+.wts-contain .link {border:1px #aaa solid;}
+.wts-contain .link div[type="content"] h4 {padding: 0 2%;line-height:1.5em;}
+.wts-contain .link div[type="content"] p {padding: 0 2% 20px 2%;}
 
-#wts-contain .twitter-tweet {  padding-left: 5%;  border-left: solid 5px #aaa;}
-#wts-contain .twitter-tweet p {padding-bottom:10px;}
-#wts-contain blockquote.twitter-tweet {  display: inline-block;  font-family: "roboto Condensed", san-serif;  font-size: 12px;  font-weight: bold;  line-height: 16px;  border-color: #eee #ddd #bbb;  border-radius: 5px;  border-style: solid;  border-width: 1px;  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);  margin: 10px 5px 20px 5px;  padding: 15px 5%;  max-width: 420px;}
-#wts-contain blockquote.twitter-tweet p {  font-size: 16px;  font-weight: normal;  line-height: 20px;}
-#wts-contain blockquote.twitter-tweet a {  color: inherit;  font-weight: normal;  text-decoration: none;  outline: 0 none;}
-#wts-contain blockquote.twitter-tweet a:hover,blockquote.twitter-tweet a:focus {  text-decoration: underline;}
+.wts-contain .twitter-tweet {  padding-left: 5%;  border-left: solid 5px #aaa;}
+.wts-contain .twitter-tweet p {padding-bottom:10px;}
+.wts-contain blockquote.twitter-tweet {  display: inline-block;  font-family: "roboto Condensed", san-serif;  font-size: 12px;  font-weight: bold;  line-height: 16px;  border-color: #eee #ddd #bbb;  border-radius: 5px;  border-style: solid;  border-width: 1px;  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);  margin: 10px 5px 20px 5px;  padding: 15px 5%;  max-width: 420px;}
+.wts-contain blockquote.twitter-tweet p {  font-size: 16px;  font-weight: normal;  line-height: 20px;}
+.wts-contain blockquote.twitter-tweet a {  color: inherit;  font-weight: normal;  text-decoration: none;  outline: 0 none;}
+.wts-contain blockquote.twitter-tweet a:hover,blockquote.twitter-tweet a:focus {  text-decoration: underline;}
 
 .wts-entry {padding:10px 2%;width:96%;background:#fff;overflow-x:hidden;position:relative;}
 .wts-entry:last-of-type {border:0;}
 
-#wts-contain .wts-text {margin:0 0 20px 0;}
+.wts-contain .wts-text {margin:0 0 20px 0;}
 
 .wts-entry .fa {}
 .wts-entry .fa-quote-left {float: left;  font-size: 2em;  padding: 0 2% 20px 0;margin-top:-15px;color:#9d9d9d;}
@@ -92,16 +94,15 @@
 
 .wts-link {text-decoration:underline;color:#39709f;}
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
 	.wts-box {width:31%;margin-right:2%;float:left;border:none;border-right:1px #ddd solid;min-height:650px;padding:0;}
-	.wts-box>div {width:23.333333333%;}
 
 	.wts-meta {float:left;width:25%;padding-right:2%;margin-top:22px;}
 	.wts-content {float:right;width:73%;margin:0;}
 }
 
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
 	.sidebar {display:none;}
 }
 
